@@ -6,6 +6,6 @@ services:
         - 7778:7778
     entrypoint: ./docker-entrypoint.sh
     volumes:
-        - .:/git-test
+        - .:/fastapi-git-test
     environment:
-      - PYTHONPATH=/git-test
+      - PYTHONPATH=/fastapi-git-test
